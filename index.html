@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Messages</title>
+
+    <link rel="stylesheet" href="assets/css/animasi_preloader.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/music.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,700&family=Shrikhand&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/effd3867de.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Navbar Start -->
+    <nav>
+      <h2>Generatext</h2>
+      <div class="list-menu">
+        <div class="list-items">
+          <a href="#home">Home</a>
+        </div>
+        <div class="list-items">
+          <a href="#about">About</a>
+        </div>
+        <div class="list-items">
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="burger-menu" id="menu">
+          <img src="assets/burger-right.png">
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- MODAL -->
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+          <span class="close" id="closeModal">&times;</span>
+          <div class="modal-header">
+            <h2>Generatext<h2>
+          </div>
+          <div class="modal-body">
+            <div class="list-items">
+              <a href="#home">Home</a>
+            </div>
+            <div class="list-items">
+              <a href="#about">About</a>
+            </div>
+            <div class="list-items">
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com/zidanherlangga04_">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/@dansec04_">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+      </div>
+    </div>
+
+    <!-- Main Content 1 Start -->
+    <main id="home">
+      <!-- Section A Start -->
+      <div class="section-a"  data-aos="zoom-in">
+        <div class="text-section">
+          <div class="title">
+            <p>Sweet message someone to you</p>
+          </div>
+        </div>
+      </div>
+      <!-- Section A End -->
+
+      <!-- Section B Start -->
+      <div class="section-b"  data-aos="zoom-in">
+        <div class="container">
+          <div class="message">
+            <div class="border">
+              <p class="textMessage"></p>
+            </div>
+          </div>
+          <div class="generate">
+            <button id="gen-text">Generate Message</button>
+          </div>
+        </div>
+      </div>
+      <!-- Section B End -->
+    </main>
+    <!-- Main Content 1 End -->
+
+    <!-- Main Content 2 Start -->
+    <main id="about">
+      <div class="text-section" data-aos="zoom-in">
+        <div class="title">
+          <p>About</p>
+        </div>
+        <div class="description">
+          <p>Dalam alun hatiku, engkau adalah melodi yang tak pernah pudar. Setiap detik bersamamu adalah lembaran indah dalam kisah cinta kita. Cintaku padamu tak terukur, meluas seiring waktu, dan mengukir kenangan abadi. Hati ini adalah milikmu, dan hanya bersamamu, aku menemukan makna sejati dari kebahagiaan.</p>
+        </div>
+      </div>
+    </main>
+    <!-- Main Content 2 End -->
+
+    <!-- Footer Start -->
+    <footer class="footer" id="contact">
+      <p>Follow Me</p>
+      <div class="socials">
+        <a href="#facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com/zidanherlangga04_">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/@dansec04_">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Backsound Start -->
+    <div>
+      <audio id="track">
+        <source src="Y2meta.app - Ariana Grande - Stuck with U (Lyrics) ft. Justin Bieber (128 kbps).mp3" type="audio/mpeg" />
+      </audio>
+
+      <div id="player-container" class="player-container">
+        <div id="play-pause" class="play"></div>
+      </div>
+    </div>
+    <!-- Backsound End -->
+
+    <!-- Java Script -->
+    <script src="assets/js/index.js"></script>
+    
+    <!-- AoS JS -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
